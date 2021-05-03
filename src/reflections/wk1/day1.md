@@ -1,6 +1,6 @@
 # What is Git and why do we use it?
 
-> Git is a source control solution
+> Git is a source control solution that is pretty neat
 
 - lorem ipsum
 - thing 3

@@ -16,11 +16,10 @@ jobs:
           npm install
           npm run build
       - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@3.7.1
+        uses: EndBug/add-and-commit@v7
         with:
-          GITHUB_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
-          REPOSITORY_NAME: jakeoverall/blog # TODO 
-          BRANCH: gh-pages 
-          FOLDER: src/.vuepress/dist 
-          CLEAN: true 
-          SINGLE_COMMIT: true 
+          author_name: Jake Overall
+          author_email: joverall22@gmail.com
+          message: 'deploy'
+          branch: gh-pages 
+          add: 'src/.vuepress/dist'

@@ -22,4 +22,4 @@ jobs:
           author_email: joverall22@gmail.com
           message: 'deploy'
           branch: gh-pages 
-          add: 'src/.vuepress/dist'
+          add: 'src/.vuepress/dist --force'
